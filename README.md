@@ -24,12 +24,17 @@ python app.py
 
 ## Deployment
 
-Deployed on Render.com
+**Deployed on PythonAnywhere**
+
+See [PYTHONANYWHERE_DEPLOY.md](PYTHONANYWHERE_DEPLOY.md) for detailed deployment instructions.
+
+**Live URL**: `https://salsburg.pythonanywhere.com` (after deployment)
 
 ## Project Files
 
 - `app.py` - Main Flask application
 - `requirements.txt` - Python dependencies
-- `render.yaml` - Render.com configuration
+- `wsgi.py` - PythonAnywhere WSGI configuration
+- `PYTHONANYWHERE_DEPLOY.md` - Deployment guide
 - `context.md` - Business analysis context
 - Cash flow and financial documents
